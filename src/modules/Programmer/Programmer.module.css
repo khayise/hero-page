@@ -1,0 +1,11 @@
+.programmer {
+	max-width: 550px;
+	width: 100%;
+}
+
+@media screen and (min-width: 1050px) {
+	.programmer {
+		width: 50%;
+		height: 50%;
+	}
+}

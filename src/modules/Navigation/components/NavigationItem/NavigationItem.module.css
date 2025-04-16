@@ -1,0 +1,10 @@
+.navigation-item {
+	color: white;
+	font-weight: 600;
+	font-size: 18px;
+	transition: color 0.1s;
+}
+
+.navigation-item:hover {
+	color: var(--color-orange);
+}

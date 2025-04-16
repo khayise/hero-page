@@ -1,0 +1,32 @@
+.typing-text {
+	font-size: var(--h1--size);
+	font-family: var(--h1--font);
+	color: var(--color-orange);
+	position: relative;
+}
+
+.typing-text__blink::after {
+	content: '';
+	width: 4px;
+	height: 100%;
+	animation: blink 1.2s infinite;
+	background-color: var(--color-orange);
+	position: absolute;
+	right: -8px;
+	top: 2px;
+}
+
+@keyframes blink {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 1;
+	}
+	60% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}

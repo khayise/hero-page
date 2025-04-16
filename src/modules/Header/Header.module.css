@@ -1,0 +1,15 @@
+.header {
+	width: 100%;
+	height: 60px;
+	padding: 12px;
+	background-color: var(--color-purple);
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+	max-width: var(--page--max-width);
+	margin: auto;
+	height: 100%;
+	color: white;
+}
